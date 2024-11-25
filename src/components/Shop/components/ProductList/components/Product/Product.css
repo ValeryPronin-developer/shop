@@ -1,0 +1,41 @@
+ .quantity {
+    background: rgba(248, 248, 251, 1);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 15px 23px;
+}
+
+.quantity .count-button {
+    cursor: pointer;
+    color: rgba(153, 153, 153, 1);
+    font-size: 23px;
+    line-height: 16px;
+}
+
+.quantity .count {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.buy-btn {
+    background: rgba(248, 248, 251, 1);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 13px 23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.buy-btn:hover {
+    box-shadow: inset 2px -2px 20px rgba(0, 0, 0, 0.1), inset -2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quantity .count-button:hover {
+    color: rgba(153, 153, 153, 0.7);
+}

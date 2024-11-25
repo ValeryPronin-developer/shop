@@ -1,0 +1,62 @@
+.subscribe {
+    max-width: 1680px;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto 120px auto;
+    background: rgba(241, 242, 243, 1);
+}
+
+.subscribe .container {
+    max-width: 624px;
+    width: 100%;
+    max-height: 288px;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    margin: 0 781px 162px 275px;
+    padding: 60px;
+    position: relative;
+}
+
+.subscribe .container .info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.subscribe .container .info .title {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.subscribe .container .info .description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.subscribe .container .news-letter {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.subscribe .container .news-letter .button-wrapper {
+    max-width: 140px;
+}
+
+.subscribe .container .news-letter .button-wrapper .button {
+    padding-top: 17px;
+    padding-right: 14px;
+    padding-bottom: 17px;
+    padding-left: 14px;
+}
+
+.subscribe .container .vector-object {
+    position: absolute;
+    right: 30px;
+    top: -33px;
+}
+

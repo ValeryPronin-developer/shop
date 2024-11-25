@@ -1,0 +1,165 @@
+* {
+    font-family: Raleway, sans-serif;
+}
+
+.container {
+    max-width: 1148px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(68, 68, 68, 20%);
+    color: rgba(68, 68, 68, 50%);
+    outline: none;
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container .button-wrapper {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    max-width: 240px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container .button-wrapper .button {
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border: none;
+    background: rgba(0, 0, 0, 1);
+    padding: 17px 74px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.container .button-wrapper .button:hover {
+    box-shadow: inset 2px 2px 10px rgb(142, 142, 142), inset -2px -2px 10px rgb(142, 142, 142);
+}
+
+.container .button-wrapper .button:disabled {
+    opacity: 0.7;
+    box-shadow: none;
+}
+
+.container .button-wrapper .vertical-line {
+    width: 2px;
+    height: 100%;
+    background: rgba(0, 0, 0, 1);
+}
+
+.container .button-wrapper .button:disabled ~ .vertical-line {
+    opacity: 0.7;
+}
+
+.container .price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .price-and-quantity .price {
+    width: 126px;
+}
+
+.container .price .current-price {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.container .price .old-price {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: rgba(68, 68, 68, 1);
+    text-decoration: line-through;
+}
+
+.container .custom-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .custom-list .item {
+    list-style: square;
+    list-style-position: inside;
+    color: rgba(68, 68, 68, 1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:27px;
+}
+
+.container .custom-list .item:hover {
+    color: rgba(255, 142, 142, 1);
+}
+
+.container .custom-list .item span {
+    margin-left: -5px;
+}
+
+.container .custom-list .item.active {
+    color: rgba(255, 142, 142, 1);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.container .custom-list .item.active::before {
+    content: " ";
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-image: url("../assets/icons/small-row.svg");
+}
+
+
+.container .find-us .find-us-text {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.container .find-us .find-us-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .find-us .find-us-links .find-us-link a {
+    text-decoration: none;
+    color: rgba(68, 68, 68, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.container .find-us .find-us-links .line {
+    height: 1px;
+    width: 10px;
+    border-bottom: 1px solid #444444;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+.header-icon {
+    cursor: pointer;
+}
